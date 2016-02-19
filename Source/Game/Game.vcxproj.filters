@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{b07bafa4-d21c-4674-8f50-96a0b05e15ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{586d68dc-8cef-4150-a86a-3b708d5f06e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor">
+      <UniqueIdentifier>{62da837c-acf0-4b44-ba08-23b8efaf501d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers">
+      <UniqueIdentifier>{0cb00818-9793-4a67-8eb2-aff313aa0b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Communication">
+      <UniqueIdentifier>{00cae4c5-2d7a-4dcf-bd87-198310906050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Formation">
+      <UniqueIdentifier>{10ce528c-71af-475d-b56e-6726c5c1e41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Communication\EventManager">
+      <UniqueIdentifier>{028737ad-d0ff-4cdf-acac-d98cc0c43b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Communication\PollingStation">
+      <UniqueIdentifier>{64c259a9-fe86-4126-a61e-da559c1dade8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Communication\Blackboard">
+      <UniqueIdentifier>{349fbcbb-54b3-4027-b5e6-3d9056a2326f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Communication\Blackboard\Blackboard">
+      <UniqueIdentifier>{a7f51451-5bf7-43aa-a8b0-9e46b402207d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Communication\Blackboard\Misc">
+      <UniqueIdentifier>{eef1d221-f8d8-4419-bef7-af19153a9a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Misc">
+      <UniqueIdentifier>{2ad66306-6cf9-408f-ab74-10cacdcf3b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Gameplay">
+      <UniqueIdentifier>{e6e99d96-753d-4a98-ac81-1e93ee728ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Gameplay\Obstacle">
+      <UniqueIdentifier>{996c84f7-1fd6-467c-a48c-77e7c29b4666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Gameplay\Bullet">
+      <UniqueIdentifier>{cc2e1979-4f6d-40d8-8dc5-a0aa0e37dbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Misc\LineSegment">
+      <UniqueIdentifier>{e2bc2602-8657-46f4-8d6c-7a4bb0019196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Misc\Functions">
+      <UniqueIdentifier>{656e5785-7a55-4293-976f-b9c575f60c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\BlendedBehavior">
+      <UniqueIdentifier>{c3ba60d2-39e4-4faa-b30c-ce59b8ac1e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\Controller">
+      <UniqueIdentifier>{d47e5d4b-9744-41e0-af5b-ca08df62ac7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\Blackboard">
+      <UniqueIdentifier>{b2ac58a5-8267-4777-80e6-b2d0e06047b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\Charge">
+      <UniqueIdentifier>{d7fae5d7-3bc1-42a0-8b8f-1da425af6f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\Flee">
+      <UniqueIdentifier>{36fd6943-4090-4a00-aa2c-5a3951c0973c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\Formation">
+      <UniqueIdentifier>{7a8b14ed-c731-4f44-9d15-b6b654457bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor\Controllers\Arrive">
+      <UniqueIdentifier>{e2d2d48f-fe32-4c8f-ae3d-e080dfdcfe82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Commander">
+      <UniqueIdentifier>{87e62c19-5c97-4c88-b589-593d97813ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Gameplay\ControlPoint">
+      <UniqueIdentifier>{e3eb8ba5-60b5-4bdb-b6ad-849cba2c837b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="resource.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>AI\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>AI\Gameplay\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>AI\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Formation.h">
+      <Filter>AI\Actor\Formation</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackboard.h">
+      <Filter>AI\Communication\Blackboard\Blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackboardCommand.h">
+      <Filter>AI\Communication\Blackboard\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackboardInformation.h">
+      <Filter>AI\Communication\Blackboard\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="AIEventManager.h">
+      <Filter>AI\Communication\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PollingStation.h">
+      <Filter>AI\Communication\PollingStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>AI\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFunctions.h">
+      <Filter>AI\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>AI\Gameplay\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment.h">
+      <Filter>AI\Misc\LineSegment</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>AI\Misc\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendedBehaviorController.h">
+      <Filter>AI\Actor\Controllers\BlendedBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>AI\Actor\Controllers\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackboardController.h">
+      <Filter>AI\Actor\Controllers\Blackboard</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeController.h">
+      <Filter>AI\Actor\Controllers\Charge</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeController.h">
+      <Filter>AI\Actor\Controllers\Flee</Filter>
+    </ClInclude>
+    <ClInclude Include="FormationController.h">
+      <Filter>AI\Actor\Controllers\Formation</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrive.h">
+      <Filter>AI\Actor\Controllers\Arrive</Filter>
+    </ClInclude>
+    <ClInclude Include="Commander.h">
+      <Filter>AI\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="Faction.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPoint.h">
+      <Filter>AI\Gameplay\ControlPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="InfluenceMap.h" />
+    <ClInclude Include="SpriteManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="Actor.cpp">
+      <Filter>AI\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>AI\Gameplay\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Formation.cpp">
+      <Filter>AI\Actor\Formation</Filter>
+    </ClCompile>
+    <ClCompile Include="Blackboard.cpp">
+      <Filter>AI\Communication\Blackboard\Blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="AIEventManager.cpp">
+      <Filter>AI\Communication\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PollingStation.cpp">
+      <Filter>AI\Communication\PollingStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>AI\Gameplay\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegment.cpp">
+      <Filter>AI\Misc\LineSegment</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>AI\Misc\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendedBehaviorController.cpp">
+      <Filter>AI\Actor\Controllers\BlendedBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>AI\Actor\Controllers\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackboardController.cpp">
+      <Filter>AI\Actor\Controllers\Blackboard</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeController.cpp">
+      <Filter>AI\Actor\Controllers\Charge</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeController.cpp">
+      <Filter>AI\Actor\Controllers\Flee</Filter>
+    </ClCompile>
+    <ClCompile Include="FormationController.cpp">
+      <Filter>AI\Actor\Controllers\Formation</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrive.cpp">
+      <Filter>AI\Actor\Controllers\Arrive</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander.cpp">
+      <Filter>AI\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPoint.cpp">
+      <Filter>AI\Gameplay\ControlPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="InfluenceMap.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+  </ItemGroup>
+</Project>
