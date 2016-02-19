@@ -27,6 +27,11 @@
 *.out
 *.app
 
+# Debug helpers
+*.pdb
+*.idb
+*.ilk
+
 #Visual studio folders
 Debug/
 Release/
